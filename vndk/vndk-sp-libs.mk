@@ -26,4 +26,5 @@ VNDK_SP_LIBRARIES := \
     libpng \
     libprocessgroup \
     libunwind \
+    libunwindstack\
     libutils \
