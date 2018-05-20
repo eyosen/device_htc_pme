@@ -33,10 +33,6 @@ PRODUCT_AAPT_PREF_CONFIG := xxxhdpi
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.product.first_api_level=23
 
-# Boot animation
-TARGET_SCREEN_HEIGHT := 2560
-TARGET_SCREEN_WIDTH := 1440
-
 # Provides overrides to configure the Dalvik heap limits
 PRODUCT_PROPERTY_OVERRIDES += \
     dalvik.vm.heapstartsize=16m \
@@ -208,10 +204,6 @@ PRODUCT_PACKAGES += \
 # Fingerprint
 PRODUCT_PACKAGES += \
     android.hardware.biometrics.fingerprint@2.1-service
-
-# FlipFlap
-PRODUCT_PACKAGES += \
-    FlipFlap
 
 # Gatekeeper HAL
 PRODUCT_PACKAGES += \

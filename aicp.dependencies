@@ -1,0 +1,17 @@
+[
+  {
+    "repository":  "Fagyi/android_kernel_htc_msm8996",
+    "target_path": "kernel/htc/msm8996",
+    "branch":      "eas-o-dev"
+  },
+  {
+    "repository":  "Fagyi/proprietary_vendor_htc",
+    "target_path": "vendor/htc/pme",
+    "branch":      "lineage-15.1"
+  },
+  {
+    "repository":  "LineageOS/android_packages_resources_devicesettings",
+    "target_path": "packages/resources/devicesettings",
+    "branch":      "lineage-15.1"
+  }
+]
