@@ -68,7 +68,7 @@
             64 - Volume rocker
          For example, a device with Home, Back and Menu keys would set this
          config to 7. -->
-    <integer name="config_deviceHardwareWakeKeys">64</integer>
+    <integer name="config_deviceHardwareWakeKeys">19</integer>
 
     <!-- Control the behavior when the user long presses the app switch button.
             0 - Nothing
@@ -84,6 +84,6 @@
          This needs to match the enums in
          sdk/src/java/org/lineageos/internal/util/DeviceKeysConstants.java.
     -->
-    <integer name="config_longPressOnAppSwitchBehavior">0</integer>
+    <integer name="config_longPressOnAppSwitchBehavior">1</integer>
 
 </resources>
