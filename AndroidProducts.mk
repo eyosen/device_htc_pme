@@ -15,3 +15,6 @@
 
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/aicp_pme.mk
+
+COMMON_LUNCH_CHOICES := \
+    aicp_pme-userdebug
