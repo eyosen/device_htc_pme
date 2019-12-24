@@ -638,10 +638,6 @@ service charger /system/bin/charger
     group system graphics input
     seclabel u:r:charger:s0
 
-service qbcharger /charger -m 1
-disabled
-oneshot
-
 service vendor.ssr_diag /system/vendor/bin/ssr_diag
     class late_start
     user system
@@ -720,11 +716,6 @@ on property:ro.logdumpd.enabled=1
 
 on property:vendor.display.lcd_density=*
     setprop ro.sf.lcd_density ${vendor.display.lcd_density}
-
-service time_daemon /system/vendor/bin/time_daemon
-    class main
-    user root
-    group root
 
 service vendor.vppservice /vendor/bin/vppservice
     class main
