@@ -72,8 +72,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # CNE & DPM
 PRODUCT_PROPERTY_OVERRIDES += \
-    persist.vendor.cne.feature=1 \
-    persist.vendor.dpm.feature=0 \
+    persist.vendor.cne.feature=1
 
 # Enable STM events
 PRODUCT_PROPERTY_OVERRIDES += \
