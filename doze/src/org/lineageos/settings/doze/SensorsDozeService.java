@@ -31,9 +31,9 @@ import android.os.PowerManager.WakeLock;
 import android.os.SystemClock;
 import android.os.UserHandle;
 import android.os.Vibrator;
-import android.preference.PreferenceManager;
 import android.provider.Settings;
 import android.util.Log;
+import androidx.preference.PreferenceManager;
 
 public class SensorsDozeService extends Service {
 
@@ -47,9 +47,9 @@ public class SensorsDozeService extends Service {
     private static final int SENSORS_WAKELOCK_DURATION = 1000;
     private static final int VIBRATOR_ACKNOWLEDGE = 40;
 
-    private static final String KEY_GESTURE_HAND_WAVE = "gesture_hand_wave";
-    private static final String KEY_GESTURE_PICK_UP = "gesture_pick_up";
-    private static final String KEY_GESTURE_POCKET = "gesture_pocket";
+    private static final String KEY_GESTURE_HAND_WAVE = "doze_handwave_gesture";
+    private static final String KEY_GESTURE_PICK_UP = "doze_pulse_on_pick_up";
+    private static final String KEY_GESTURE_POCKET = "doze_pocket_gesture";
 
     private Context mContext;
     private OrientationSensor mOrientationSensor;

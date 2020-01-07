@@ -31,18 +31,15 @@ import android.view.ViewGroup;
 import android.widget.CompoundButton;
 import android.widget.Switch;
 import android.widget.TextView;
-import androidx.preference.Preference;
-import androidx.preference.Preference.OnPreferenceChangeListener;
-import androidx.preference.PreferenceCategory;
 import androidx.preference.PreferenceFragment;
 import androidx.preference.SwitchPreference;
 
 public class DozeSettingsFragment extends PreferenceFragment implements
         CompoundButton.OnCheckedChangeListener {
 
-    private static final String KEY_GESTURE_HAND_WAVE = "gesture_hand_wave";
-    private static final String KEY_GESTURE_PICK_UP = "gesture_pick_up";
-    private static final String KEY_GESTURE_POCKET = "gesture_pocket";
+    private static final String KEY_GESTURE_HAND_WAVE = "doze_handwave_gesture";
+    private static final String KEY_GESTURE_PICK_UP = "doze_pulse_on_pick_up";
+    private static final String KEY_GESTURE_POCKET = "doze_pocket_gesture";
 
     private Switch mSwitch;
     private SwitchPreference mHandwavePreference;
