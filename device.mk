@@ -468,7 +468,7 @@ PRODUCT_PACKAGES += \
     com.android.ims.rcsmanager \
     ims-ext-common \
     ims_ext_common.xml \
-    ims-ext-common_system \
+    ims-ext-common_system-pme \
     telephony-ext \
     qti-telephony-hidl-wrapper \
     qti_telephony_hidl_wrapper.xml \
@@ -477,7 +477,7 @@ PRODUCT_PACKAGES += \
     libshim_ims
 
 PRODUCT_BOOT_JARS += \
-    ims-ext-common_system \
+    ims-ext-common_system-pme \
     telephony-ext
 
 # TextClassifier smart selection model files
