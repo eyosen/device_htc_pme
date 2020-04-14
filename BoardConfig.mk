@@ -242,7 +242,9 @@ BOARD_SEPOLICY_DIRS += \
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
-    device/htc/pme
+    device/htc/pme \
+    device/htc/pme/libshims
+
 
 # Treble
 BOARD_PROPERTY_OVERRIDES_SPLIT_ENABLED := true
