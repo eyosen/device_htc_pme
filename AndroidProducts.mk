@@ -14,7 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_pme.mk
+    $(LOCAL_DIR)/aicp_pme.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_pme-userdebug
+    aicp_pme-eng \
+		aicp_pme-user \
+    aicp_pme-userdebug

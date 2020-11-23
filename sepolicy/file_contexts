@@ -18,8 +18,7 @@
 /(vendor|system/vendor)/bin/hw/android\.hardware\.light@2\.0-service\.pme       		u:object_r:hal_light_default_exec:s0
 /(vendor|system/vendor)/bin/hw/android\.hardware\.drm@1\.1-service\.clearkey                    u:object_r:hal_drm_clearkey_exec:s0
 /(vendor|system/vendor)/bin/hw/android\.hardware\.drm@1\.1-service\.widevine	                u:object_r:hal_drm_widevine_exec:s0
-/(vendor|system/vendor)/bin/hw/vendor\.lineage\.touch@1\.0-service\.pme                         u:object_r:hal_lineage_touch_default_exec:s0
-/(vendor|system/vendor)/bin/hw/android\.hardware\.power@1\.2-service.pme                        u:object_r:hal_power_default_exec:s0
+/(vendor|system/vendor)/bin/hw/android\.hardware\.power-qti-service.pme                        u:object_r:hal_power_default_exec:s0
 
 # Light
 /sys/devices/soc/rgb-qpnp-19/leds/button-backlight/brightness                                   u:object_r:sysfs:s0
@@ -33,4 +32,3 @@
 
 # vendor
 /vendor/bin/tftp_server                                                                         u:object_r:rfs_access_exec:s0
-

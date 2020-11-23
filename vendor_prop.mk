@@ -265,5 +265,4 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.sys.disable_rescue=true
 
 # OTA
-PRODUCT_PROPERTY_OVERRIDES += \
-    lineage.updater.uri=https://raw.githubusercontent.com/Fagyi/OTA/lineage-17.1/pme.json
+#PRODUCT_PROPERTY_OVERRIDES +=
