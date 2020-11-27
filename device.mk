@@ -178,9 +178,9 @@ PRODUCT_PACKAGES += \
     libcnefeatureconfig \
     services-ext
 
-# GestureHandler
+# DeviceHandler
 PRODUCT_PACKAGES += \
-    GestureHandler
+    DeviceSettings
 
 # Component overrides
 PRODUCT_COPY_FILES += \
@@ -219,6 +219,10 @@ PRODUCT_PACKAGES += \
     android.hardware.drm@1.0-impl \
     android.hardware.drm@1.0-service \
     android.hardware.drm@1.3-service.clearkey
+
+# Doze
+PRODUCT_PACKAGES += \
+    Doze
 
 # Enable Codec 2.0
 PRODUCT_PACKAGES += \
@@ -500,10 +504,6 @@ PRODUCT_COPY_FILES += \
 # USB HAL
 PRODUCT_PACKAGES += \
     android.hardware.usb@1.0-service.basic
-
-# Variant linking script
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/releasetools/variants.sh:install/bin/variants.sh
 
 # Vendor security patch level
 PRODUCT_PROPERTY_OVERRIDES += \
