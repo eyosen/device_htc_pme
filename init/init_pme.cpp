@@ -143,4 +143,5 @@ void vendor_load_properties()
             load_properties(htc_unlocked_properties);
         }
     }
+    property_override("ro.build.fingerprint", "google/walleye/walleye:8.1.0/OPM1.171019.011/4448085:user/release-keys");
 }
