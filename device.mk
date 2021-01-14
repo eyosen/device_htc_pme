@@ -505,7 +505,7 @@ PRODUCT_BOOT_JARS += \
 
 # Tethering
 PRODUCT_PACKAGES += \
-    TetheringConfigOverlay
+    TetheringConfigOverlay-pme
 
 # TextClassifier smart selection model files
 PRODUCT_PACKAGES += \
