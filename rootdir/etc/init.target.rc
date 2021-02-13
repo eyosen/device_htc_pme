@@ -250,6 +250,16 @@ on boot
     chown system system /sys/class/power_supply/battery/disable_limit_chg
     chmod 0220 /sys/class/power_supply/battery/disable_limit_chg
 
+    # BMS - Battery Health
+    chown system system /sys/class/power_supply/bms/charge_full
+    chmod 0644 /sys/class/power_supply/bms/charge_full
+    chown system system /sys/class/power_supply/bms/charge_full_design
+    chmod 0644 /sys/class/power_supply/bms/charge_full_design
+    chown system system /sys/class/power_supply/bms/cycle_count
+    chmod 0644 /sys/class/power_supply/bms/cycle_count
+    chown system system /sys/class/power_supply/bms/battery_type
+    chmod 0644 /sys/class/power_supply/bms/battery_type
+
     # Capacitive key disabler permissions
     chown system system /sys/devices/soc/757a000.i2c/i2c-6/6-0064/disable_key
 
