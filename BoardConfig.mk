@@ -68,6 +68,8 @@ TARGET_KERNEL_ARCH := arm64
 TARGET_KERNEL_SOURCE := kernel/htc/msm8996
 TARGET_KERNEL_CONFIG := pme_defconfig
 TEMPORARY_DISABLE_PATH_RESTRICTIONS=true
+TARGET_KERNEL_ADDITIONAL_FLAGS := \
+    HOSTCFLAGS="-fuse-ld=lld -Wno-unused-command-line-argument"
 
 # Properties
 TARGET_PRODUCT_PROP += $(DEVICE_PATH)/product.prop
