@@ -8,3 +8,5 @@ allow rild unlabeled:file { ioctl open read write getattr lock unlink};
 allow rild vendor_file:file ioctl;
 allow rild radio_data_file:dir rw_dir_perms;
 
+allow rild carrier_file:dir { add_name remove_name write read open };
+allow rild carrier_file:file { create read write open getattr unlink ioctl lock };
