@@ -1,5 +1,5 @@
 # from sepolicy-tmp:  error duplicate declaration of type(s)
-# type adsprpcd_file, file_type; 
+# type adsprpcd_file, file_type;
 # type bt_firmware_file, file_type;
 # type firmware_file, file_type;
 # type persist_file, file_type;
@@ -9,4 +9,4 @@ type carrier_file, file_type;
 type sysfs_fpc_irq, fs_type, sysfs_type;
 type sysfs_gesture, fs_type, sysfs_type;
 type forceencrypt_block_device, dev_type;
-
+type sysfs_batt_temp, fs_type, sysfs_type;

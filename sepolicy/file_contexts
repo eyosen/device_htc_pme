@@ -42,3 +42,6 @@
 
 # vendor
 /vendor/bin/tftp_server                                                                         u:object_r:rfs_access_exec:s0
+
+# battery temp
+/sys/devices/soc/qpnp-smbcharger-16/power_supply/battery/temp                                   u:object_r:sysfs_batt_temp:s0
